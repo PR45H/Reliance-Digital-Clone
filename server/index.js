@@ -3,10 +3,13 @@ const app = express();
 const dotenv = require('dotenv').config();
 const port = process.env.PORT;
 const connectDB = require('./config/dbConnection');
+const userRouter = require('./routes/login.routes');
 
-// routes
-// const userRoute = require('./routes/user');
+// middleware
+app.use(express.json())
 
+// user routes
+app.use('/api/user', userRouter)
 
 app.listen(port, () => {
     try {
