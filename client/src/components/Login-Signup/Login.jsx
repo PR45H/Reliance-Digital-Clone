@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../Navbar/Header'
+import Navbar from '../Navbar/Navbar'
 
 const Login = () => {
     const content = [{
@@ -28,6 +29,9 @@ const Login = () => {
         <div>
             <div>
                 <Header content={content} />
+            </div>
+            <div>
+                <Navbar/>
             </div>
         </div>
     )
