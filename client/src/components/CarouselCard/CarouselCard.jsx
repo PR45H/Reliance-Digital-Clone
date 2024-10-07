@@ -1,6 +1,6 @@
 import React from "react";
 import Autoplay from "embla-carousel-autoplay";
-// import { Card, CardContent } from "@/components/ui/card"
+import { Card, CardContent } from "@/components/ui/card"
 import appleAirPodsBanner from "../../assets/carousel_banners/Apple-AirPods-Pro-Banner-D-rev-2.jpg";
 import appleIphoneBanner from "../../assets/carousel_banners/Apple-iPhone-14-banner-D-rev-1.avif";
 import festiveTvBanner from "../../assets/carousel_banners/Festive-TV-Banner.jpg";
@@ -18,6 +18,8 @@ import {
 } from "@/components/ui/carousel";
 
 const CarouselCard = () => {
+    // TODO: create a db for carousel images
+    // created a images array to easily map the images
     const images = [
         appleAirPodsBanner,
         appleIphoneBanner,
@@ -27,33 +29,38 @@ const CarouselCard = () => {
         speakerBanner,
         stylersBanner,
     ];
+    // created a plugin to autoplay the carousel
     const plugin = React.useRef(
-        Autoplay({ delay: 2000, stopOnInteraction: true })
+        Autoplay({ delay: 5000, stopOnInteraction: true })
     );
     return (
-        <div>
-        <Carousel
-            plugins={[plugin.current]}
-            className="w-full "
-            onMouseEnter={plugin.current.stop}
-            onMouseLeave={plugin.current.reset}
-        >
-            <CarouselContent>
-            {images.map((image, index) => (
-                <CarouselItem key={index}>
-                <div className="p-1">
-                    <img
-                    src={image}
-                    alt=""
-                    className="w-full h-full object-cover"
-                    />
-                </div>
-                </CarouselItem>
-            ))}
-            </CarouselContent>
-            <CarouselPrevious className="left-2" />
-            <CarouselNext className="right-2" />
-        </Carousel>
+        <div className="w-full">
+            <Carousel
+                plugins={[plugin.current]}
+                className="w-full"
+                onMouseEnter={plugin.current.stop}
+                onMouseLeave={plugin.current.reset}
+            >
+                {/* mapping the images to the carousel */}
+                <CarouselContent>
+                    {images.map((image, index) => (
+                        <CarouselItem key={index}>
+                            <Card className="w-full">
+                                <CardContent className="p-0">
+                                    <img 
+                                        src={image} 
+                                        alt={`Carousel image ${index + 1}`} 
+                                        className="w-full h-full object-contain"
+                                    />
+                                </CardContent>
+                            </Card>
+                        </CarouselItem>
+                    ))}
+                </CarouselContent>
+                {/* created a previous and next button for the carousel */}
+                <CarouselPrevious className="left-2" />
+                <CarouselNext className="right-2" />
+            </Carousel>
         </div>
     );
 };
