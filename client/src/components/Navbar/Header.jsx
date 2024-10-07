@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const Header = ({ content }) => {
     return (
-        <div className='bg-[#E42529] flex justify-center text-white text-[14px] font-semibold px-4 py-2'>
+        <div className='bg-[#E42529] flex justify-end text-white text-[14px] font-semibold px-4 py-2'>
             <ul className='flex gap-4'>
                 {content.map((item, index) => (
                     <React.Fragment key={index}>
