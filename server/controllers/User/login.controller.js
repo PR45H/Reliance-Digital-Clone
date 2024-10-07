@@ -12,6 +12,11 @@ const login = async (req,res) => {
         if (!isEmailCorrect) {
             return res.status(404).json({message:'User does not exist!'})
         }
+        // checking password
+        const isPasswordCorrect = isEmailCorrect.password
+        if (!isPasswordCorrect) {
+            return res.status(403).json({message:'incorrect password!'})
+        }
         // Token creation and sending userId in the token
         const token = jwt.sign({ userId: isEmailCorrect._id }, privateKey)
         res.status(200).json({message: 'Login Successfull!', token:token})
