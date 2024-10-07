@@ -4,11 +4,13 @@ import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import Home from './pages/Home.jsx'
+import Login from './components/Login-Signup/Login.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App />}>
       <Route path='' element={<Home/>}/>
+      <Route path='login' element={<Login/>}/>
     </Route>
   )
 )
