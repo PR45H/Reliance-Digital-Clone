@@ -5,7 +5,7 @@ const privateKey = process.env.JWT_SECRET_KEY
 
 const login = async (req,res) => {
     try {
-        const {email} = req.body
+        const {email, password} = req.body
         // console.log(email)
         // Checking if user exist
         const isEmailCorrect = await UserModel.findOne({ email: email })
@@ -13,9 +13,9 @@ const login = async (req,res) => {
             return res.status(404).json({message:'User does not exist!'})
         }
         // checking password
-        const isPasswordCorrect = isEmailCorrect.password
+        const isPasswordCorrect = isEmailCorrect.password === password
         if (!isPasswordCorrect) {
-            return res.status(403).json({message:'incorrect password!'})
+            return res.status(401).json({message:'incorrect password!'})
         }
         // Token creation and sending userId in the token
         const token = jwt.sign({ userId: isEmailCorrect._id }, privateKey)
