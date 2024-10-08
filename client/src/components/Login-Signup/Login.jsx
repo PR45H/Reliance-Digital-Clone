@@ -5,10 +5,13 @@ import Banner from '../Banner/Banner'
 import loginBanner from '../../assets/banners/LoginWebBanner.avif'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
+import { useToast } from "@/hooks/use-toast"
 import { Card, CardContent, CardHeader, CardFooter, CardTitle, CardDescription } from '@/components/ui/card'
 import axios from 'axios'
+import { useNavigate } from 'react-router-dom'
 
 const Login = () => {
+    const navigate = useNavigate()
     // content for header
     const content = [{
         label: "OUR BRAND PROMISE",
@@ -32,12 +35,45 @@ const Login = () => {
         label: "Contact Us",
         path: "/contactus"
         }]
-    const [mobile, setMobile] = useState("");
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+    const { toast } = useToast()
     
     const handleSubmit = async(e) => {
         e.preventDefault();
-        const res = await axios.post(`${import.meta.env.VITE_API_URL}/user/login`, {mobile})
-        console.log(res);
+        try {
+            // console.log('Sending request to:', `${import.meta.env.VITE_API_URL}/user/login`);
+            // console.log('With data:', { email, password });
+            const res = await axios.post(`${import.meta.env.VITE_API_URL}/user/login`, { email, password });
+            console.log(res.data)
+            if (res.status == "200") {
+                localStorage.setItem("Authorization", res.data.token)
+                console.log(res.data.message )
+                toast({
+                    title: res.data.message,
+                    status: "success",
+                    duration: 2000,
+                    isClosable: true,
+                    style: {
+                        background: '#038C07',
+                        color: '#fff',
+                    }
+                });
+                navigate('/')
+            }
+        } catch (error) {
+            console.error('Error:', error);
+            if (error.response) {
+                toast({
+                    variant: "destructive",
+                    title: "Login Failed",
+                    description: error.response.data.message,
+                    status: "error",
+                    duration: 5000,
+                    isClosable: true,
+                });
+            }
+        }
     }
     
     return (
@@ -59,14 +95,13 @@ const Login = () => {
                         </CardHeader>
                         <CardContent>
                             
-                            <form action="" method="post" onSubmit={handleSubmit}>
+                            <form onSubmit={handleSubmit}>
                                 <div className='flex flex-col gap-10 h-[100%]'>
-                                    <Input onChange={(e)=>{setMobile(e.target.value)}} type="number" placeholder="Enter mobile number" className='w-full' />
+                                    <Input onChange={(e)=>{setEmail(e.target.value)}} type="email" placeholder="Enter Email" className='w-full'  />
+                                    <Input onChange={(e) => { setPassword(e.target.value) }} type="password" placeholder="Enter Password" className='w-full' />
                                     <Button className='w-full bg-[#E42529] text-white' type='submit'>Proceed</Button>
                                 </div>
                             </form>
-                                
-                          
                         </CardContent>
                     </Card>
                 </div>
