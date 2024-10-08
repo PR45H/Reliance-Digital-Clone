@@ -1,12 +1,14 @@
 const express = require('express');
 const app = express();
-const dotenv = require('dotenv').config();
+require('dotenv').config();
 const port = process.env.PORT;
 const connectDB = require('./config/dbConnection');
 const userRouter = require('./routes/login.routes');
+const cors = require('cors')
 
 // middleware
 app.use(express.json())
+app.use(cors())
 
 // user routes
 app.use('/api/user', userRouter)
