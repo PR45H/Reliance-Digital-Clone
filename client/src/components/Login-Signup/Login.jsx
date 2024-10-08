@@ -39,6 +39,7 @@ const Login = () => {
     const [password, setPassword] = useState("");
     const { toast } = useToast()
     
+    // handle form submission, send login request to server
     const handleSubmit = async(e) => {
         e.preventDefault();
         try {
@@ -46,6 +47,8 @@ const Login = () => {
             // console.log('With data:', { email, password });
             const res = await axios.post(`${import.meta.env.VITE_API_URL}/user/login`, { email, password });
             console.log(res.data)
+            // store token in local storage
+            // redirect to home page
             if (res.status == "200") {
                 localStorage.setItem("Authorization", res.data.token)
                 console.log(res.data.message )
@@ -72,6 +75,17 @@ const Login = () => {
                     duration: 5000,
                     isClosable: true,
                 });
+            }
+            if (error.response.status === 404) {
+                toast({
+                    variant: "destructive",
+                    title: "Login Failed",
+                    description: error.response.data.message,
+                    status: "error",
+                    duration: 5000,
+                    isClosable: true,
+                });
+                navigate('/register')
             }
         }
     }
