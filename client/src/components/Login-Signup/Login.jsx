@@ -98,7 +98,7 @@ const Login = () => {
             <div>
                 <Navbar/>
             </div>
-            <div className='flex justify-between p-4'>
+            <div className='flex justify-between items-center p-4'>
                 <div className=''>
                     <Banner images={loginBanner} />
                 </div>
