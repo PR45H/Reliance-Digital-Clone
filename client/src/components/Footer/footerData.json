@@ -1,0 +1,20 @@
+{
+    "productCategories": [
+        {
+            "header": "PRODUCT CATEGORIES",
+            "products": [
+                "Smartphones",
+                "Laptops",
+                "DSLR cameras",
+                "Telephone",
+                "Air Conditioners",
+                "Refrigerators",
+                "Kitchen Appliances",
+                "Accessories",
+                "Personal Care & Grooming",
+                "Smartwatches"
+            ]
+        }
+    ]
+}
+
