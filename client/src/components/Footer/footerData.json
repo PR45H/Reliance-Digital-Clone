@@ -15,6 +15,51 @@
                 "Smartwatches"
             ]
         }
+    ],
+    "siteInfo": [
+        {
+            "header": "SITE INFO",
+            "products": [
+                "About Reliance Digital",
+                "resQ services",
+                "Locate nearest resQ service center",
+                "Locate nearest My Jio Store",
+                "Site Map",
+                "Gift Cards",
+                "Corporate Enquiries",
+                "Contact Us"
+            ]
+        }
+    ],
+    "resourceCentre": [
+        {
+            "header": "RESOURCE CENTRE",
+            "products": [
+                "Product Reviews",
+                "Buying Guides",
+                "How Tos",
+                "Featured Stories",
+                "Events & Happenings",
+                "Nearest Store"
+            ]
+        }
+    ],
+    "policies": [
+        {
+            "header": "POLICIES",
+            "products": [
+                "Terms of Use",
+                "FAQs",
+                "Cancellation & Return Policy",
+                "Pricing & Payment Policy",
+                "Shipping and Delivery Policy",
+                "Privacy Policy",
+                "E-waste Recycling Policy",
+                "EMI and Additional Cashback T&C",
+                "RelianceOne Loyalty Program T&C",
+                "Caution Notice"
+            ]
+        }
     ]
 }
 
