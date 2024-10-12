@@ -33,7 +33,9 @@ const Navbar = () => {
                     </ul>
                 </div>
             </div>
-            <BottomNav/>
+
+                <BottomNav/>
+
         </div>
     )
 }
