@@ -1,0 +1,197 @@
+{
+    "mobiles_tablets": [
+        {
+            "title": "MOBILES & TABLETS",
+            "subCategories": [
+                {
+                    "title": "Smartphones",
+                    "products": [
+                        "Oppo K12X @ 11249*",
+                        "Oppo K12X @ 11249*"
+                    ]
+                },
+                {
+                    "title": "Smartwatches",
+                    "products": [
+                        "Apple",
+                        "Samsung",
+                        "Firebolt",
+                        "Noise",
+                        "Boat"
+                    ]
+                },
+                {
+                    "title": "Accessories",
+                    "products": [
+                        "Tablet Accessories",
+                        "Mobile Accessories",
+                        "Mobile Grips & Stands",
+                        "Car Mobile Holders",
+                        "Memory Card",
+                        "Cables & Cords",
+                        "Chargers & Adapters"
+                    ]
+                }
+            ]
+        }
+    ],
+    "television": [
+        {
+            "title": "TELEVISIONS",
+            "subCategories": [
+                {
+                    "title": "Televisions",
+                    "products": [
+                        "Smart TVs",
+                        "32 inch TVs",
+                        "43 inch TVs",
+                        "43 inch TVs",
+                        "55 inch TVs",
+                        "Android TVs"
+                    ]
+                },
+                {
+                    "title": "Gaming",
+                    "products": [
+                        "Gaming Consoles",
+                        "Gaming Accessories",
+                        "Gaming Titles",
+                        "Gaming Controllers",
+                        "Boat"
+                    ]
+                },
+                {
+                    "title": "Projectors",
+                    "products": []
+                },
+                {
+                    "title": "Streaming Devices",
+                    "products": []
+                },
+                {
+                    "title": "Reconnect Disney | Marvel Audio Collection",
+                    "products": []
+                },
+                {
+                    "title": "TV & Audio Accessories",
+                    "products": [
+                        "Virtual Reality Headsets",
+                        "Stabilizers & Surge Protectors"
+                    ]
+                }
+            ]
+        }
+    ],
+    "audio": [
+        {
+            "title": "AUDIO",
+            "subCategories": [
+                {
+                    "title": "Headphones & Headsets",
+                    "products": [
+                        "True Wireless",
+                        "Bluetooth Neckbands",
+                        "Earphones",
+                        "Bluetooth Headphones",
+                        "Gaming Headset",
+                        "Wired Headphones"
+                    ]
+                },
+                {
+                    "title": "Musical Instruments",
+                    "products": [
+                        "Guitars and Ukuleles",
+                        "Microphones",
+                        "Musical Keyboards"
+                    ]
+                },
+                {
+                    "title": "Speakers & Soundbars",
+                    "products": [
+                        "Bluetooth Speakers",
+                        "Smart Speakers",
+                        "Home Theatre Systems",
+                        "Specialty Speakers",
+                        "Soundbars",
+                        "Party Speakers",
+                        "Multimedia Speakers"
+                    ]
+                }
+            ]
+        }
+    ],
+    "home_appliances": [
+        {
+            "title": "HOME APPLIANCES",
+            "subCategories": [
+                {
+                    "title": "Air Conditioners",
+                    "products": [
+                        "Split Air Conditioners",
+                        "Window Air Conditioners",
+                        "Smart Air Conditioners",
+                        "Energy Efficient Air Conditioners",
+                        "1 ton Air Conditioners",
+                        "1.5 ton Air Conditioners",
+                        "5 star Air Conditioners"
+                    ]
+                },
+                {
+                    "title": "Air Coolers",
+                    "products": []
+                },
+                {
+                    "title": "Air Purifiers",
+                    "products": []
+                },
+                {
+                    "title": "Washing Machines",
+                    "products": [
+                        "Fully Automatic Front Load",
+                        "Fully Automatic Top Load",
+                        "Semi-Automatic Top Load"
+                    ]
+                },
+                {
+                    "title": "Refrigerators",
+                    "products": [
+                        "Single Door",
+                        "Double Door",
+                        "Side by Side Refrigerators",
+                        "Convertible"
+                    ]
+                },
+                {
+                    "title": "Vacuum Cleaners",
+                    "products": [
+                        "Robotic Vacuum Cleaners"
+                    ]
+                },
+                {
+                    "title": "Radiators",
+                    "products": []
+                },
+                {
+                    "title": "Dishwashers",
+                    "products": []
+                },
+                {
+                    "title": "Fans",
+                    "products": []
+                },
+                {
+                    "title": "Cloth Dryers",
+                    "products": []
+                },
+                {
+                    "title": "Geysers",
+                    "products": []
+                },
+                {
+                    "title": "Room Heaters",
+                    "products": []
+                }
+            ]
+        }
+    ]
+}
