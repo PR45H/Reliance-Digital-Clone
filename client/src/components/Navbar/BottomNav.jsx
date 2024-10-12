@@ -1,13 +1,7 @@
-
 import React from 'react'
-import {
-    NavigationMenu,
-    NavigationMenuContent,
-    NavigationMenuItem,
-    NavigationMenuLink,
-    NavigationMenuList,
-    NavigationMenuTrigger,
-} from "@/components/ui/navigation-menu"
+import CategoryList from './categoryList'
+import {mobiles_tablets, television, audio, home_appliances} from './navbarCategoriesData'
+
 
 const BottomNav = () => {
     const categories = [
@@ -22,33 +16,15 @@ const BottomNav = () => {
         {name: "Accessories"},
     ]
     return (
-        <div>
-            <div className='bg-[#003380] py-2 text-white text-[14px] font-semibold flex justify-evenly'>
-                {/* <div className='flex justify-evenly'>
-                    {categories.map((category) => {
-                        return <>
-                            <div className='flex items-center gap-1'>{category.name} <RiArrowDropDownLine/></div>
-                            
-                        </>
-                    })}
-                    
-                </div> */}
-                <NavigationMenu>
-                    <NavigationMenuList>
-                        {categories.map((category, index) => (
-                            <NavigationMenuItem key={index}>
-                                <NavigationMenuTrigger className='hover:bg-[#E42529]'>
-                                    {category.name}
-                                </NavigationMenuTrigger>
-                                <NavigationMenuContent>
-                                    <NavigationMenuLink>Link</NavigationMenuLink>
-                                </NavigationMenuContent>
-                            </NavigationMenuItem>
-                        ))}
-                    </NavigationMenuList>
-                </NavigationMenu>
-
+        <div className=' '>
+            {/* {console.log(mobiles_tablets)} */}
+            <div className='grid grid-cols-9'>
+                <CategoryList product={mobiles_tablets} />
+                <CategoryList product={television} />
+                <CategoryList product={audio} />
+                <CategoryList product={home_appliances} />
             </div>
+            
         </div>
     )
 }
