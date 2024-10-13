@@ -2,10 +2,11 @@
     "smart_phones":[
         {
             "Product_name": "OnePlus Nord CE 3 Lite 5G 256 GB, 8 GB RAM, Pastel Lime, Mobile Phone",
+            "image":"https://www.reliancedigital.in/medias/OnePlus-Nord-CE-3-Lite-MOB-493665925-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNzUyMXxpbWFnZS9qcGVnfGltYWdlcy9oODMvaDU1Lzk5ODA3Mjk0NTg3MTguanBnfDkwNjYzNjhhODQxMzllYmNlZGMwYzQ0YjllNmEwZWQwNzIxNDk0OGFkOTFiZjU4MTU2N2FlMjg3YzFmMTBmZGQ",
             "Ratings": "(475)",
             "New_Price": "18,499.00",
             "Old_Price": "21,999.00",
-            "LABEL-8": "16%(₹3,500)",
+            "Discounted_Price": "16%(₹3,500)",
             "Bank_Offers": "10% Upto Rs.10K Bank Disc on ICICI CC & Axis CC"
         },
         {
@@ -13,7 +14,7 @@
             "Ratings": "(85)",
             "New_Price": "67,900.00",
             "Old_Price": "69,900.00",
-            "LABEL-8": "3%(₹2,000)",
+            "Discounted_Price": "3%(₹2,000)",
             "Bank_Offers": "Rs.4000 ICICI/SBI/Kotak CC Instant Disc with 6 Months NCEMI"
         },
         {
@@ -21,7 +22,7 @@
             "Ratings": "",
             "New_Price": "8,999.00",
             "Old_Price": "11,999.00",
-            "LABEL-8": "25%(₹3,000)",
+            "Discounted_Price": "25%(₹3,000)",
             "Bank_Offers": "10% Upto Rs.10K Bank Disc on ICICI CC & Axis CC"
         },
         {
@@ -29,7 +30,7 @@
             "Ratings": "",
             "New_Price": "10,499.00",
             "Old_Price": "13,999.00",
-            "LABEL-8": "25%(₹3,500)",
+            "Discounted_Price": "25%(₹3,500)",
             "Bank_Offers": "10% Upto Rs.10K Bank Disc on ICICI CC & Axis CC"
         },
         {
@@ -37,7 +38,7 @@
             "Ratings": "(68)",
             "New_Price": "67,900.00",
             "Old_Price": "69,900.00",
-            "LABEL-8": "3%(₹2,000)",
+            "Discounted_Price": "3%(₹2,000)",
             "Bank_Offers": "Rs.4000 ICICI/SBI/Kotak CC Instant Disc with 6 Months NCEMI"
         },
         {
@@ -45,7 +46,7 @@
             "Ratings": "(70)",
             "New_Price": "49,900.00",
             "Old_Price": "",
-            "LABEL-8": "",
+            "Discounted_Price": "",
             "Bank_Offers": "Rs.2000 ICICI/SBI/Kotak CC Instant Discount with 6 Months NCEMI"
         },
         {
@@ -53,7 +54,7 @@
             "Ratings": "(18)",
             "New_Price": "54,900.00",
             "Old_Price": "",
-            "LABEL-8": "",
+            "Discounted_Price": "",
             "Bank_Offers": "10% Upto Rs. 4000 ICICI & Axis CC Disc"
         },
         {
@@ -61,7 +62,7 @@
             "Ratings": "(35)",
             "New_Price": "17,749.00",
             "Old_Price": "26,999.00",
-            "LABEL-8": "34%(₹9,250)",
+            "Discounted_Price": "34%(₹9,250)",
             "Bank_Offers": "10% Upto Rs.10K Bank Disc on ICICI CC & Axis CC"
         },
         {
@@ -69,7 +70,7 @@
             "Ratings": "",
             "New_Price": "10,499.00",
             "Old_Price": "13,999.00",
-            "LABEL-8": "25%(₹3,500)",
+            "Discounted_Price": "25%(₹3,500)",
             "Bank_Offers": "10% Upto Rs.10K Bank Disc on ICICI CC & Axis CC"
         },
         {
@@ -77,7 +78,7 @@
             "Ratings": "",
             "New_Price": "7,499.00",
             "Old_Price": "9,999.00",
-            "LABEL-8": "25%(₹2,500)",
+            "Discounted_Price": "25%(₹2,500)",
             "Bank_Offers": "Limited Time Offer"
         },
         {
@@ -85,7 +86,7 @@
             "Ratings": "(37)",
             "New_Price": "75,900.00",
             "Old_Price": "79,900.00",
-            "LABEL-8": "5%(₹4,000)",
+            "Discounted_Price": "5%(₹4,000)",
             "Bank_Offers": "Rs.4000 ICICI/SBI/Kotak CC Instant Disc with 6 Months NCEMI"
         },
         {
@@ -93,7 +94,7 @@
             "Ratings": "(15)",
             "New_Price": "67,900.00",
             "Old_Price": "69,900.00",
-            "LABEL-8": "3%(₹2,000)",
+            "Discounted_Price": "3%(₹2,000)",
             "Bank_Offers": "Rs.4000 ICICI/SBI/Kotak CC Instant Disc with 6 Months NCEMI"
         },
         {
@@ -101,7 +102,7 @@
             "Ratings": "(43)",
             "New_Price": "49,900.00",
             "Old_Price": "",
-            "LABEL-8": "",
+            "Discounted_Price": "",
             "Bank_Offers": "Rs.2000 ICICI/SBI/Kotak CC Instant Discount with 6 Months NCEMI"
         },
         {
@@ -109,7 +110,7 @@
             "Ratings": "",
             "New_Price": "9,499.00",
             "Old_Price": "14,999.00",
-            "LABEL-8": "37%(₹5,500)",
+            "Discounted_Price": "37%(₹5,500)",
             "Bank_Offers": "10% Upto Rs.10K Bank Disc on ICICI CC & Axis CC"
         },
         {
@@ -117,7 +118,7 @@
             "Ratings": "",
             "New_Price": "10,499.00",
             "Old_Price": "13,999.00",
-            "LABEL-8": "25%(₹3,500)",
+            "Discounted_Price": "25%(₹3,500)",
             "Bank_Offers": "10% Upto Rs.10K Bank Disc on ICICI CC & Axis CC"
         },
         {
@@ -125,7 +126,7 @@
             "Ratings": "",
             "New_Price": "9,999.00",
             "Old_Price": "13,999.00",
-            "LABEL-8": "29%(₹4,000)",
+            "Discounted_Price": "29%(₹4,000)",
             "Bank_Offers": "10% Upto Rs.10K Bank Disc on ICICI CC & Axis CC"
         },
         {
@@ -133,7 +134,7 @@
             "Ratings": "(25)",
             "New_Price": "17,749.00",
             "Old_Price": "26,999.00",
-            "LABEL-8": "34%(₹9,250)",
+            "Discounted_Price": "34%(₹9,250)",
             "Bank_Offers": "10% Upto Rs.10K Bank Disc on ICICI CC & Axis CC"
         },
         {
@@ -141,7 +142,7 @@
             "Ratings": "",
             "New_Price": "14,099.00",
             "Old_Price": "18,999.00",
-            "LABEL-8": "26%(₹4,900)",
+            "Discounted_Price": "26%(₹4,900)",
             "Bank_Offers": ""
         },
         {
@@ -149,7 +150,7 @@
             "Ratings": "",
             "New_Price": "14,999.00",
             "Old_Price": "18,999.00",
-            "LABEL-8": "21%(₹4,000)",
+            "Discounted_Price": "21%(₹4,000)",
             "Bank_Offers": ""
         },
         {
@@ -157,7 +158,7 @@
             "Ratings": "",
             "New_Price": "1,39,999.00",
             "Old_Price": "1,49,999.00",
-            "LABEL-8": "7%(₹10,000)",
+            "Discounted_Price": "7%(₹10,000)",
             "Bank_Offers": ""
         },
         {
@@ -165,7 +166,7 @@
             "Ratings": "(22)",
             "New_Price": "54,900.00",
             "Old_Price": "",
-            "LABEL-8": "",
+            "Discounted_Price": "",
             "Bank_Offers": "10% Upto Rs. 4000 ICICI & Axis CC Disc"
         },
         {
@@ -173,7 +174,7 @@
             "Ratings": "",
             "New_Price": "7,499.00",
             "Old_Price": "9,999.00",
-            "LABEL-8": "25%(₹2,500)",
+            "Discounted_Price": "25%(₹2,500)",
             "Bank_Offers": "Limited Time Offer"
         },
         {
@@ -181,7 +182,7 @@
             "Ratings": "",
             "New_Price": "13,999.00",
             "Old_Price": "17,999.00",
-            "LABEL-8": "22%(₹4,000)",
+            "Discounted_Price": "22%(₹4,000)",
             "Bank_Offers": "10% Upto Rs.10K Bank Disc on ICICI CC & Axis CC"
         },
         {
@@ -189,7 +190,7 @@
             "Ratings": "",
             "New_Price": "10,999.00",
             "Old_Price": "12,999.00",
-            "LABEL-8": "15%(₹2,000)",
+            "Discounted_Price": "15%(₹2,000)",
             "Bank_Offers": "10% Upto Rs.10K Bank Disc on ICICI CC & Axis CC"
         },
         {
@@ -197,7 +198,7 @@
             "Ratings": "",
             "New_Price": "9,999.00",
             "Old_Price": "16,999.00",
-            "LABEL-8": "41%(₹7,000)",
+            "Discounted_Price": "41%(₹7,000)",
             "Bank_Offers": "10% Upto Rs.10K Bank Disc on ICICI CC & Axis CC"
         },
         {
@@ -205,7 +206,7 @@
             "Ratings": "",
             "New_Price": "14,499.00",
             "Old_Price": "22,999.00",
-            "LABEL-8": "37%(₹8,500)",
+            "Discounted_Price": "37%(₹8,500)",
             "Bank_Offers": "10% Upto Rs.10K Bank Disc on ICICI CC & Axis CC"
         },
         {
@@ -213,7 +214,7 @@
             "Ratings": "(38)",
             "New_Price": "27,999.00",
             "Old_Price": "33,999.00",
-            "LABEL-8": "18%(₹6,000)",
+            "Discounted_Price": "18%(₹6,000)",
             "Bank_Offers": ""
         },
         {
@@ -221,7 +222,7 @@
             "Ratings": "",
             "New_Price": "12,999.00",
             "Old_Price": "14,999.00",
-            "LABEL-8": "13%(₹2,000)",
+            "Discounted_Price": "13%(₹2,000)",
             "Bank_Offers": "10% Upto Rs.10K Bank Disc on ICICI CC & Axis CC"
         },
         {
@@ -229,7 +230,7 @@
             "Ratings": "",
             "New_Price": "10,999.00",
             "Old_Price": "12,999.00",
-            "LABEL-8": "15%(₹2,000)",
+            "Discounted_Price": "15%(₹2,000)",
             "Bank_Offers": "10% Upto Rs.10K Bank Disc on ICICI CC & Axis CC"
         },
         {
@@ -237,7 +238,7 @@
             "Ratings": "",
             "New_Price": "14,499.00",
             "Old_Price": "22,999.00",
-            "LABEL-8": "37%(₹8,500)",
+            "Discounted_Price": "37%(₹8,500)",
             "Bank_Offers": "10% Upto Rs.10K Bank Disc on ICICI CC & Axis CC"
         },
         {
@@ -245,7 +246,7 @@
             "Ratings": "(48)",
             "New_Price": "34,999.00",
             "Old_Price": "38,999.00",
-            "LABEL-8": "10%(₹4,000)",
+            "Discounted_Price": "10%(₹4,000)",
             "Bank_Offers": ""
         },
         {
@@ -253,7 +254,7 @@
             "Ratings": "",
             "New_Price": "7,499.00",
             "Old_Price": "11,999.00",
-            "LABEL-8": "38%(₹4,500)",
+            "Discounted_Price": "38%(₹4,500)",
             "Bank_Offers": "10% Upto Rs.10K Bank Disc on ICICI CC & Axis CC"
         },
         {
@@ -261,7 +262,7 @@
             "Ratings": "",
             "New_Price": "7,499.00",
             "Old_Price": "11,999.00",
-            "LABEL-8": "38%(₹4,500)",
+            "Discounted_Price": "38%(₹4,500)",
             "Bank_Offers": "10% Upto Rs.10K Bank Disc on ICICI CC & Axis CC"
         },
         {
@@ -269,7 +270,7 @@
             "Ratings": "",
             "New_Price": "7,499.00",
             "Old_Price": "11,999.00",
-            "LABEL-8": "38%(₹4,500)",
+            "Discounted_Price": "38%(₹4,500)",
             "Bank_Offers": "10% Upto Rs.10K Bank Disc on ICICI CC & Axis CC"
         },
         {
@@ -277,7 +278,7 @@
             "Ratings": "(121)",
             "New_Price": "29,999.00",
             "Old_Price": "39,999.00",
-            "LABEL-8": "25%(₹10,000)",
+            "Discounted_Price": "25%(₹10,000)",
             "Bank_Offers": ""
         },
         {
@@ -285,7 +286,7 @@
             "Ratings": "(56)",
             "New_Price": "34,999.00",
             "Old_Price": "44,999.00",
-            "LABEL-8": "22%(₹10,000)",
+            "Discounted_Price": "22%(₹10,000)",
             "Bank_Offers": ""
         }
     
