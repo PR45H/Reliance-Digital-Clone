@@ -1,6 +1,6 @@
 import React from 'react'
 import CategoryList from './categoryList'
-import {mobiles_tablets, television, audio, home_appliances} from './navbarCategoriesData'
+import {mobiles_tablets, television, audio, home_appliances, computers} from './navbarCategoriesData'
 
 
 const BottomNav = () => {
@@ -23,6 +23,8 @@ const BottomNav = () => {
                 <CategoryList product={television} />
                 <CategoryList product={audio} />
                 <CategoryList product={home_appliances} />
+                <CategoryList product={computers} />
+                <CategoryList product={computers} />
             </div>
             
         </div>
