@@ -17,7 +17,7 @@ const CategoryList = ({ product }) => {
                         <NavigationMenuTrigger className="bg-[#003380] hover:bg-[#E42529]">{product.map((category, index) => {
                             return <div key={index}>{category.title}</div>
                         })}</NavigationMenuTrigger>
-                        <NavigationMenuContent style={{}}>
+                        <NavigationMenuContent className="bg-[#003380] text-white">
                             <NavigationMenuLink>
                                 {product.map((category, index) => {
                                     return <div key={index} className="grid grid-cols-3 w-[1024px]">
