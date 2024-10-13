@@ -5,6 +5,7 @@ import CarouselCard from '../components/CarouselCard/CarouselCard'
 import Banner from '@/components/Banner/Banner'
 import Navbar from '../components/Navbar/Navbar'
 import Header from '../components/Navbar/Header'
+import ProductCard from '@/components/Product-Card/ProductCard'
 
 const Home = () => {
     const content = [{
@@ -34,6 +35,9 @@ const Home = () => {
 
             <div className="welcomeBanner">
                 <Banner images={corporateGiftCard} />
+            </div>
+            <div className="welcomeBanner">
+                <ProductCard />
             </div>
         </div>
     )
