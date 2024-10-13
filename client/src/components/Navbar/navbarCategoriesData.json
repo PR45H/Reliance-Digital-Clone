@@ -193,5 +193,55 @@
                 }
             ]
         }
+    ],
+    "computers": [
+        {
+            "title": "COMPUTERS",
+            "subCategories": [
+                {
+                    "title": "Laptops",
+                    "products": [
+                        "Basic Laptops",
+                        "Multi-Tasking Laptops",
+                        "Student Laptops",
+                        "Thin & Light Laptops",
+                        "Gaming Laptops",
+                        "Content creator Laptops"
+                    ]
+                },
+                {
+                    "title": "Computer Monitors",
+                    "products": []
+                },
+                {
+                    "title": "Desktops & All-in-Ones",
+                    "products": []
+                },
+                {
+                    "title": "Bluetooth & Wifi speakers",
+                    "products": []
+                },
+                {
+                    "title": "Internet Connectivity Devices",
+                    "products": ["Routers", "Wifi Extenders", "Wireless USB Adapters"]
+                },
+                {
+                    "title": "Printer & Inks",
+                    "products": ["Printers","Toner & Inl Cartridges"]
+                },
+                {
+                    "title": "Data Storage Devices",
+                    "products": ["Memory Card","Pen Drives & OTG Drives","Hard Disk & SSD"]
+                },
+                {
+                    "title": "Computer Accessories",
+                    "products": ["Upto 70% off Only on Reliancedigital.in","Computer Networking Cable","Laptop Skins & Decals","Laptop Chargers & Adapters","Laptop Batteries","Cooling Pads","Webcams","USB Gadgets","Cables & Cords","PC Components","Software"]
+                },
+                {
+                    "title": "Input Devices",
+                    "products": ["Keyboards","Computer Mouse","Stylus Pen"]
+                }
+            ]
+        }
     ]
 }
