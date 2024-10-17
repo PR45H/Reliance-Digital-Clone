@@ -12,11 +12,11 @@ import StarRating from './StarRating'
 
 const ProductCard = ({products}) => {
     return (
-        <div className='grid grid-cols-4 gap-3'>
+        <div className='grid grid-cols-4 gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
             {products.smart_phones.map((product,index) => (
-                <div className="hover:shadow-xl cursor-pointer rounded-xl border-2 w-[420px]">
+                <div className="hover:shadow-xl cursor-pointer rounded-xl border-2 w-full">
                 <div>
-                    <img src={product.Image} alt={product.Products_name} className='p-5 w-56 transform transition-transform duration-500 hover:scale-110 m-auto'/>
+                    <img src={product.Images} alt={product.Products_name} className='p-5 w-56 transform transition-transform duration-500 hover:scale-110 m-auto'/>
                 </div>
                 <Card className="text-[#003380] border-none" >
                     <CardHeader>
@@ -32,12 +32,13 @@ const ProductCard = ({products}) => {
                         <div className='flex items-center gap-3 mb-3'>
                                 <p className='font-semibold'>&#8377;{product.New_Price}</p>
                                 <p className='line-through text-gray-700 font-medium text-sm opacity-80'>&#8377;{product.Old_Price}</p>
-                            <span className='text-[#49A047] text-sm font-medium' >{product.Discount}</span>
+                            <span className='text-[#49A047] text-sm font-medium' >{product.Discounts}</span>
                         </div>
-                        <div>
-                            <div className='w-fit bg-[#8cbd8b59] bg-opacity-20 border px-2 rounded-3xl border-[#49A047]'>
-                                <span className='text-[#49A047] font-normal text-sm'>10% UPTO RS. 1500 INST. DISC. WITH SBI DEBIT CARD</span>
-                            </div>
+                            <div>
+                                {product.Bank_Offers && <div className='w-fit bg-[#8cbd8b59] bg-opacity-20 border px-4 py-1 rounded-3xl border-[#49A047]'>
+                                    <span className='text-[#49A047] font-normal text-[12px]'>{product.Bank_Offers}</span>
+                            </div>}
+                            
                         </div>
                     </CardContent>
                     <CardFooter>
