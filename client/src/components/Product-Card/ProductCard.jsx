@@ -20,7 +20,7 @@ const ProductCard = ({products}) => {
                 </div>
                 <Card className="text-[#003380] border-none" >
                     <CardHeader>
-                        <CardTitle className="font-normal truncate-title">{product.Products_name}</CardTitle>
+                        <CardTitle className="font-normal truncate">{product.Products_name}</CardTitle>
                         <CardDescription>
                             <div className='flex gap-1 items-center'>
                                 <StarRating rating={product.Stars} />
