@@ -64,3 +64,9 @@
     @apply bg-background text-foreground;
   }
 }
+.navigation-menu-content {
+  position: absolute; /* Ensure it is positioned absolutely */
+  left: 50%; /* Start from the left center */
+  transform: translateX(-50%); /* Shift it back by half its width */
+  z-index: 10; /* Ensure it appears above other elements */
+}

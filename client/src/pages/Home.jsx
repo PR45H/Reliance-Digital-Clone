@@ -36,7 +36,7 @@ const Home = () => {
             <div className="welcomeBanner">
                 <Banner images={corporateGiftCard} />
             </div>
-            <div className="welcomeBanner">
+            <div className="p-5 border border-red-500 w-fit">
                 <ProductCard />
             </div>
         </div>
