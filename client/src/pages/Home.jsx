@@ -6,6 +6,7 @@ import Banner from '@/components/Banner/Banner'
 import Navbar from '../components/Navbar/Navbar'
 import Header from '../components/Navbar/Header'
 import ProductCard from '@/components/Product-Card/ProductCard'
+import smartPhones from '../db/productsDb.json'
 
 const Home = () => {
     const content = [{
@@ -36,8 +37,8 @@ const Home = () => {
             <div className="welcomeBanner">
                 <Banner images={corporateGiftCard} />
             </div>
-            <div className="p-5 border border-red-500 w-fit">
-                <ProductCard />
+            <div className="p-5">
+                <ProductCard products={smartPhones} />
             </div>
         </div>
     )
