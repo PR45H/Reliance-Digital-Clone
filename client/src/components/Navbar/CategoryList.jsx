@@ -1,55 +1,47 @@
 import React from "react";
-import {
-    NavigationMenu,
-    NavigationMenuContent,
-    NavigationMenuItem,
-    NavigationMenuList,
-    NavigationMenuTrigger,
-    NavigationMenuLink,
-} from "@/components/ui/navigation-menu";
+// import {
+//     Avatar,
+//     AvatarFallback,
+//     AvatarImage,
+//   } from "@/components/ui/avatar";
+  import { Button } from "@/components/ui/button";
+  import {
+    HoverCard,
+    HoverCardContent,
+    HoverCardTrigger,
+  } from "@/components/ui/hover-card";
 
 const CategoryList = ({ product }) => {
     return (
-        <div className="bg-[#003380] py-2 text-white text-sm font-semibold w-full">
-            <NavigationMenu>
-                <NavigationMenuList>
-                    <NavigationMenuItem className="relative">
-                        <NavigationMenuTrigger className="bg-[#003380] hover:bg-[#E42529]">
-                            {product.map((category, index) => {
-                                return <div key={index}>{category.title}</div>;
-                            })}
-                        </NavigationMenuTrigger>
-                        <NavigationMenuContent className="bg-[#003380] text-white absolute left-1/2 transform -translate-x-1/2">
-                            <NavigationMenuLink>
-                                {product.map((category, index) => {
-                                    return (
-                                        <div key={index} className="grid grid-cols-3 w-[1024px]">
-                                            {category.subCategories.map((subCategory, index) => {
-                                                return (
-                                                    <div key={index} className="flex-col p-5 gap-3 bg-[#003380] text-white w-full ">
-                                                        <h1 className="font-semibold text-[16px] mb-3">{subCategory.title}</h1>
-                                                        <div className="text-[14px]">
-                                                            {subCategory.products.map((product, i) => {
-                                                                return (
-                                                                    <div key={i} className="mb-1 hover:text-gray-400 cursor-pointer">
-                                                                        {product}
-                                                                    </div>
-                                                                );
-                                                            })}
-                                                        </div>
-                                                    </div>
-                                                );
-                                            })}
-                                        </div>
-                                    );
-                                })}
-                            </NavigationMenuLink>
-                        </NavigationMenuContent>
-                    </NavigationMenuItem>
-                </NavigationMenuList>
-            </NavigationMenu>
-        </div>
-    );
+        <div className="flex flex-wrap bg-[#003380]">
+      {product.map((category, index) => (
+        <HoverCard key={index} >
+          <HoverCardTrigger asChild>
+            <Button variant="ghost" className="text-white font-semibold hover:bg-[#E42529]">
+              {category.title}
+            </Button>
+          </HoverCardTrigger>
+          <HoverCardContent className="w-screen bg-[#003380] text-white">
+            {/* <h4 className="text-lg font-bold mb-2">{category.title}</h4> */}
+            <div className="grid grid-cols-5 gap-5">
+              {category.subCategories.map((subCategory, subIndex) => (
+                <div key={subIndex}>
+                  <h5 className="text-md font-semibold">{subCategory.title}</h5>
+                  <ul className="text-sm list-disc pl-4">
+                    {subCategory.products.map((product, prodIndex) => (
+                      <li key={prodIndex} className="hover:text-gray-300 cursor-pointer">
+                        {product}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </HoverCardContent>
+        </HoverCard>
+      ))}
+    </div>
+  );
 };
 
 export default CategoryList;
