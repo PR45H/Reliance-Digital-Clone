@@ -7,7 +7,7 @@ import BottomNav from './BottomNav';
 const Navbar = () => {
     return (
         <div>
-            <div className='flex justify-between bg-[#E42529] text-white text-[14px] font-semibold px-4 pb-2'>
+            <div className='w-svw flex justify-between bg-[#E42529] text-white text-[14px] font-semibold px-4 pb-2'>
                 <div></div>
                 <div className='flex items-center'>
                     <input type="text" placeholder='Find your favorite product' className='bg-white outline-violet-800 text-black px-4 py-2 rounded-full w-[705px]' />
