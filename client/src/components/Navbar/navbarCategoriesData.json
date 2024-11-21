@@ -243,5 +243,225 @@
                 }
             ]
         }
+    ],
+    "cameras": [
+        {
+            "title": "CAMERAS",
+            "subCategories": [
+                {
+                    "title": "DSLR Cameras",
+                    "products": []
+                },
+                {
+                    "title": "Mirrorless Cameras",
+                    "products": []
+                },
+                {
+                    "title": "Point & Shoot Cameras",
+                    "products": []
+                },
+                {
+                    "title":"ProSummer Cameras",
+                    "products":[]
+                },
+                {
+                    "title": "Action Cameras",
+                    "products": []
+                },
+                {
+                    "title": "Photo Storage Devices",
+                    "products": ["Memory Card","Pen Drives"]
+                },
+                {
+                    "title": "Binoculars",
+                    "products": []
+                },
+                {
+                    "title": "Camera Lens",
+                    "products": []
+                },
+                {
+                    "title": "Digital Camera Accessories",
+                    "products": ["Camera Batteries & Chargers", "Camera bags & Cases", "Tripod & Monopods", "Action Camera Accessories"]                }
+            ]
+        }
+    ],
+    "kitchen_appliances":[
+        {
+            "title": "KITCHEN APPLIANCES",
+            "subCategories": [
+                {
+                    "title": "Mixer Grinders",
+                    "products": ["2 Jar", "3 Jar", "4 Jar"]
+                },
+                {
+                    "title": "Juicers",
+                    "products": ["1 Jar", "2 Jar", "3 Jar", "4 Jar", "4+ Jar"]
+                },
+                {
+                    "title": "Food Processors",
+                    "products": []
+                },
+                {
+                    "title": "Hand Blenders",
+                    "products": []
+                },
+                {
+                    "title": "Electric Kettles",
+                    "products": []
+                },
+                {
+                    "title": "Coffee Makers",
+                    "products": []
+                },
+                {
+                    "title": "Sandwich Makers",
+                    "products": []
+                },
+                {
+                    "title": "Toasters",
+                    "products": []
+                },
+                {
+                    "title": "Induction Cooktops",
+                    "products": ["1 Burner", "2 Burner", "3 Burner", "4 Burner"]
+                },
+                {
+                    "title": "Electric Cookers",
+                    "products": []
+                },
+                {
+                    "title": "Microwave Ovens",
+                    "products": ["Convention", "Grill", "Solo"]
+                },
+                {
+                    "title": "Oven Toaster Grills",
+                    "products": []
+                },
+                {
+                    "title": "Air Fryers",
+                    "products": []
+                },
+                {
+                    "title": "Cooktops & Hobs",
+                    "products": []
+                },
+                {
+                    "title": "Chimneys",
+                    "products": []
+                },
+                {
+                    "title": "Dishwashers",
+                    "products": []
+                },
+                {
+                    "title": "Water Purifiers",
+                    "products": []
+                }
+            ]
+        }
+    ],
+    "personal_care":[
+        {
+            "title": "PERSONAL CARE",
+            "subCategories": [
+                {
+                    "title": "Trimmers",
+                    "products": []
+                },
+                {
+                    "title": "Hair Dryers",
+                    "products": []
+                },
+                {
+                    "title": "Hair Straighteners",
+                    "products": []
+                },
+                {
+                    "title": "Hair Curlers",
+                    "products": []
+                },
+                {
+                    "title": "Epilators",
+                    "products": []
+                },
+                {
+                    "title": "Shavers",
+                    "products": []
+                },
+                {
+                    "title": "Hair Clippers",
+                    "products": []
+                },
+                {
+                    "title": "Hair Removal",
+                    "products": []
+                },
+                {
+                    "title": "Massagers",
+                    "products": []
+                },
+                {
+                    "title": "Health Monitors",
+                    "products": []
+                },
+                {
+                    "title": "Oral Care",
+                    "products": []
+                },
+                {
+                    "title": "Nose & Ear Trimmers",
+                    "products": []
+                },
+                {
+                    "title": "Beauty & Grooming",
+                    "products": []
+                },
+                {
+                    "title": "Personal Care Accessories",
+                    "products": ["Digital Thermometers", "Pedometers", "Weighing Scales"]
+                }
+            ]
+        }
+    ],
+    "accessories":[
+        {
+            "title": "ACCESSORIES",
+            "subCategories":[
+                {
+                    "title": "Bag, Cases & Sleeves",
+                    "products": ["Laptop Bags", "Tablet Bags", "Mobile Cases", "Camera Bags", "Camera Cases", "Camera Sleeves", "Camera Pouches"]                },
+                {
+                    "title": "Smart Devices",
+                    "products":["Smart Plugs","Smart Cameras", "Smart Sensors", "Smart Lights", "Smart Speakers"]
+                },
+                {
+                    "title": "Wearable Devices",
+                    "products":["Smart Watches","Fitness Bands","Smart Glasses","Smart Rings","Smart Belts","Smart Helmets"]                },
+                {
+                    "title": "Mobile Accessories",
+                    "products":["Mobile Cases","Mobile Covers","Mobile Skins","Mobile Screen Guards","Mobile Screen Protectors"]                },
+                {
+                    "title": "Batteries",
+                    "products":[]
+                },
+                {
+                    "title": "Power Banks",
+                    "products":[]
+                },
+                {
+                    "title": "Cabes & Chargers",
+                    "products":[]
+                },
+                {
+                    "title": "Bluetooth & Wifi speakers",
+                    "products":[]
+                },
+                {
+                    "title": "Mount & Stands",
+                    "products":["Air conditioner stand", "Car mobile holder", " Mobile grip & stands"]
+                }
+            ]
+        }
     ]
 }
