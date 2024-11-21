@@ -6,9 +6,9 @@ const StarRating = ({ rating }) => {
     const emptyStars = totalStars - filledStars;
 
     return (
-        <div className="text-xl">
+        <div className="star-rating">
             {[...Array(filledStars)].map((_, index) => (
-                <span key={index} className="star text-[#FFA41C]">&#9733;</span>
+                <span key={index} className="star">&#9733;</span>
             ))}
             {[...Array(emptyStars)].map((_, index) => (
                 <span key={index} className="star">&#9734;</span>
@@ -20,7 +20,7 @@ const StarRating = ({ rating }) => {
 export default StarRating;
 
 // Add this CSS to your stylesheet or in a <style> tag
-{/* <style jsx>{`
+{ <style jsx>{`
     .star-rating {
         display: flex;
         align-items: center;
@@ -30,4 +30,4 @@ export default StarRating;
         color: gold;
         margin-right: 5px;
     }
-`}</style> */}
+`}</style> }
