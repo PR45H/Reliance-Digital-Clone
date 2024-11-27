@@ -8,15 +8,32 @@ import {
     CardTitle,
 } from "@/components/ui/card"
 import StarRating from './StarRating'
+import axios from 'axios'
+import { Toast } from '@radix-ui/react-toast'
+import { useNavigate } from 'react-router-dom'
 
 
-const ProductCard = ({products}) => {
+const ProductCard = ({ products }) => {
+
+    const navigate = useNavigate()
+
+    const handleItemClick = (item) => {
+        // console.log('Product Clicked:', item)
+        // fetch the product details from the server through the API
+        try {
+            const query = axios.get(`${import.meta.env.VITE_API_URL}/product/${item}`)
+            const productDetails = query.data
+            navigate(`/product/${item}`, { state: { productDetails } })
+        } catch (error) {
+            console.log('Error fetching product details:', error)
+        }
+    }
     return (
         <div className='grid grid-cols-4 gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
             {products.smart_phones.map((product,index) => (
-                <div className="hover:shadow-xl cursor-pointer rounded-xl w-full">
+                <div className="hover:shadow-xl cursor-pointer rounded-xl w-full" onClick={()=>handleItemClick(product.Products_name)}>
 
-                    <Card className="text-[#003380] border-none" >
+                    <Card className="text-[#003380] border-none hover:text-red-600" >
                         <div>
                             <img src={product.Images} alt={product.Products_name} className='p-5 w-56 transform transition-transform duration-500 hover:scale-110 m-auto'/>
                         </div>
